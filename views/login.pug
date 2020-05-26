@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	.container
+		link(rel="stylesheet" ,href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" ,integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" ,crossorigin="anonymous")
+		link(rel="stylesheet" ,href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css", integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" ,crossorigin="anonymous")
+		h1 Login
+		form(method='POST',action="/users/login")
+			#form-group
+				label Username :
+				input.form-control(name="username" ,type="text")
+			#form-group
+				label Password :
+				input.form-control(name="password" ,type="password")
+			input.btn.btn-success(type="submit",value="Login" ,class="mt-3" )

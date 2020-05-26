@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-register",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adell bajan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.5.0",
+    "jquery": "^3.5.0",
+    "mongoose": "^5.9.15",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.4"
+  }
+}
